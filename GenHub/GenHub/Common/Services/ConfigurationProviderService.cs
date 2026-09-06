@@ -321,6 +321,7 @@ public class ConfigurationProviderService(
         [
             $"{SuperHackersConstants.GeneralsGameCodeOwner}/{SuperHackersConstants.GeneralsGameCodeRepo}",
             $"{SuperHackersConstants.GeneralsGamePatch2Owner}/{SuperHackersConstants.GeneralsGamePatch2Repo}",
+            "nathan-soul/GameClient-PluginFramework",
         ];
     }
 
