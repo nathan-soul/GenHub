@@ -321,7 +321,8 @@ public class ConfigurationProviderService(
         [
             $"{SuperHackersConstants.GeneralsGameCodeOwner}/{SuperHackersConstants.GeneralsGameCodeRepo}",
             $"{SuperHackersConstants.GeneralsGamePatch2Owner}/{SuperHackersConstants.GeneralsGamePatch2Repo}",
-            "nathan-soul/GameClient-PluginFramework",
+            "nathan-soul/GenOnline-Overlay",
+            "nathan-soul/GenOnline-Gencast",
         ];
     }
 
