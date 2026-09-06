@@ -1,0 +1,42 @@
+{
+  "manifestVersion": "1.0",
+  "id": "1.0.0.nathan-soul.gameclient.observer-overlay",
+  "name": "Generals Online - Observer Overlay",
+  "version": "v0.6.0",
+  "contentType": "GameClient",
+  "targetGame": "ZeroHour",
+  "publisher": {
+    "name": "nathan-soul",
+    "website": "https://github.com/nathan-soul",
+    "publisherType": "Community"
+  },
+  "metadata": {
+    "description": "Generals Online game client with built-in spectator overlay plugin. Provides real-time unit queues, power cooldowns, and match stats during replays and live games. Includes preset configurations for 1v1 and 2v2 matches.",
+    "tags": ["gameclient", "overlay", "observer", "spectator", "generals-online", "zero-hour"],
+    "changelogUrl": "https://github.com/nathan-soul/GameClient-PluginFramework/releases/tag/v0.6.0"
+  },
+  "files": [
+    {
+      "relativePath": "GeneralsOnlineZH_60.exe",
+      "sourceType": "Download",
+      "size": 3617791,
+      "hash": "",
+      "isExecutable": true,
+      "downloadUrl": "https://github.com/nathan-soul/GameClient-PluginFramework/releases/download/v0.6.0/Genovly-Overlay-v0.6.0.zip",
+      "isRequired": true,
+      "packageInfo": {
+        "archiveFormat": "Zip",
+        "extractionStrategy": "ExtractAll"
+      }
+    }
+  ],
+  "dependencies": [],
+  "contentReferences": [],
+  "entryPoint": "GeneralsOnlineZH_60.exe",
+  "requiredDirectories": [],
+  "installationInstructions": {
+    "preferredStrategy": "HybridCopySymlink",
+    "preInstallSteps": [],
+    "postInstallSteps": []
+  }
+}
